@@ -1,0 +1,656 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.body_scroll{
+    overflow-y: hidden;
+}
+.Main_block_1, .Line_1, .Line_2, .Line_3, .Line_4, .Twiter, .Skype, .Earth, .P_Home, .P_Telegram, .P_Phone, .P_man, .First_image, .Second_image, .Third_image, .Fourth_image, .Fifth_image, .Sixth_image{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Main_block_1, .Line_2, .Info form p, .Little_input, .Big_input, .Main_burger_menu span, .Main_burger_menu span::after, .Main_burger_menu span::before, .Cancel_Of_Modal span::after, .Cancel_Of_Modal span, .Black_block, .P_man, .First_image, .Second_image, .Third_image, .Fourth_image, .Fifth_image, .Sixth_image, .Block_of_modal_block{
+    width: 100%;
+}
+.Main_block_1, .Text_block_1, .Main_block_of_blocks, .Text_block_2, .S_Menu, .Text_block_3, .Center_of_animation, .Info form, .Info, .Main_info, .Info_block, footer, .Apps, .Text_block_4, .Info_of_b_menu, .Info_of_b_menu a, .P_man, .P_man div, .First_grid_block, .Second_grid_block, .Third_grid_block, .Fourth_grid_block, .Fifth_grid_block, .Text_block_5, .Text_block_6, .Block_of_modal_block, .Modal_block, .Circle_1, .Electrick_watch, .Colored_animation{
+    display: flex;
+}
+.Text_block_1, .Main_block_of_blocks, .Text_block_2, .S_Menu, .Info form, .Main_info, footer, .Text_block_4, .Info_of_b_menu, .P_man div, .First_grid_block, .Second_grid_block, .Third_grid_block, .Fourth_grid_block, .Fifth_grid_block, .Text_block_5, .Text_block_6{
+    flex-direction: column;
+}
+.Text_block_1, .Text_block_3, .Info form, .Info, .Main_info, .Info_block, .Apps, .Text_block_4, .P_man div, .Text_block_5, .Electrick_watch, .Colored_animation{
+    justify-content: space-between;
+}
+.Main_block_1{
+    background-image: url(Images/Layer_1.png);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.Text_block_1{
+    color: white;
+    text-align: center;
+    align-items: center;
+    width: 35%;
+}
+.Text_block_1 button{
+    width: 200px;
+    height: 60px;
+    background: #fb6470;
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    transition: linear 1s;
+}
+.Text_block_1 button:hover, .Info form button:hover{
+    cursor: pointer;
+    background: green;
+}
+.Main_text_1, .Text_block_2 p, .Animated_text, .Text_2, .Electrick_watch{
+    font-size: 50px;
+}
+.Text_1{
+    color: grey;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.Main_block_of_blocks{
+    align-items: center;
+}
+.Text_block_2, .S_Menu, .Content_of_menu, .Info, footer{
+    margin-top: 70px;
+}
+.Line_1{
+    background-image: url(Images/Line_1.png);
+    height: 5px;
+    width: 10%;
+}
+.Text_block_2, .S_Menu, .Interests, .Interests_2, .Info, .Text_block_6, .Modal_block p{
+    width: 90%;
+}
+.Text_block_2 p{
+    margin-bottom: 5px;
+}
+.Text_block_2 .Line_1{
+    width: 120px;
+}
+.Text_block_3{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+}
+.Text_block_3 button{
+    font-size: 35px;
+    background: none;
+    border: none;
+}
+.Text_block_3 button:hover{
+    cursor: pointer;
+}
+.Line_2{
+    height: 5px;
+    background-image: url(Images/Line_2.png);
+}
+.Interests{
+    grid-template-columns: repeat(2, 48.5%);
+}
+.Interests, .Interests_2{
+    display: none;
+    grid-auto-rows: 32.6%;
+    grid-row-gap: 1.2500em;
+    grid-column-gap: 20px;
+    height: 2000px;
+}
+.Interests_2{
+    font-size: 95px;
+    color: #3f3d3e;
+    text-align: center;
+}
+.Center_of_animation{
+    align-items: center;
+    justify-content: center;
+}
+.active{
+    display: grid;
+}
+.Info form{
+    align-items: end;
+    width: 340px;
+    font-size: 25px;
+}
+.Info form button{
+    width: 100px;
+    color: white;
+    font-size: 18px;
+    background: #fb6470;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    transition: linear 1s;
+}
+.Little_input{
+    height: 40px;
+}
+.Little_input, .Big_input{
+    border: 1px solid black;
+    margin-top: 10px;
+}
+.Big_input{
+    height: 100px;
+    margin-top: 10px;
+}
+.Main_info{
+    width: 340px;
+}
+.Info_block{
+    height: 80px;
+    align-items: center;
+}
+.Line_3{
+    width: 5px;
+    background-image: url(Images/Divider.png);
+}
+footer{
+    margin-bottom: 70px;
+    align-items: center;
+}
+.Apps{
+    width: 100px;
+    margin-bottom: 10px;
+}
+.Line_4{
+    height: 15px;
+    width: 2px;
+    background-image: url(Images/Line_4.png);
+}
+.Twiter, .Skype, .Earth{
+    height: 15px;
+    width: 15px;
+}
+.Twiter{
+    background-image: url(Images/Twitter.png);
+}
+.Skype{
+    background-image: url(Images/Skype.png);
+}
+.Earth{
+    background-image: url(Images/Earth.png);
+}
+.Line_m_2{
+    margin-left: 31%;
+}
+.Line_m_3{
+    margin-left: 62.5%;
+}
+.Line_m_4{
+    margin-left: 90%;
+}
+.P_Home, .P_Telegram, .P_Phone{
+    height: 50px;
+    width: 50px;
+}
+.P_Home{
+    background-image: url(Images/Home.png);
+}
+.Text_block_4{
+    height: 100%;
+    width: 280px;
+}
+.Bold_text{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(80, 80, 80);
+}
+.UnBold_text{
+    color: lightgray;
+}
+.P_Telegram{
+    background-image: url(Images/Telegram.png);
+}
+.P_Phone{
+    background-image: url(Images/Phone.png);
+}
+.Info_of_b_menu{
+    height: 100%;
+    width: 250px;
+    background: #353541;
+    position: fixed;
+    transition: .3s;
+    margin-left: -100%;
+    z-index: 1;
+}
+.Info_of_b_menu a{
+    color: white;
+    font-size: 25px;
+    height: 50px;
+    align-items: center;
+    text-decoration: none;
+    padding-left: 15px;
+    border-bottom: solid 3px #2c2c35;
+}
+.Main_burger_menu{
+    position: fixed;
+    top: 5%;
+    left: 2%;
+    width: 30px;
+    height: 20px;
+    z-index: 2;
+    cursor: pointer;
+}
+.Main_burger_menu span, .Main_burger_menu span::after, .Main_burger_menu span::before{
+    height: 2px;
+    position: absolute;
+    display: block;
+    background: red;
+    transition: .3s;
+}
+.Cancel_Of_Modal{
+    position: absolute;
+    margin-bottom: 525px;
+    margin-left: 450px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.Cancel_Of_Modal span::after, .Cancel_Of_Modal span{
+    height: 2px;
+    position: absolute;
+    display: block;
+    background: red;
+}
+.Cancel_Of_Modal span::after{
+    content: '';
+    transform: rotate(90deg);
+}
+.Cancel_Of_Modal span{
+    content: '';
+    transform: rotate(-45deg);
+}
+.Main_burger_menu span::after{
+    content: '';
+    top: 8px;
+}
+.Main_burger_menu span::before{
+    content: '';
+    top: -8px;
+}
+.M_B_M span{
+    transform: rotate(45deg);
+}
+.M_B_M span::after{
+    top: 0;
+    transform: rotate(90deg);
+}
+.M_B_M span::before{
+    top: 0;
+    transform: rotate(0);
+}
+#JS_line{
+    transition: 1s;
+}
+.I_o_b_m_mod{
+    margin-left: 0%;
+}
+.Black_block{
+    display: none;
+    opacity: 0.5;
+    position: fixed;
+    min-height: 100vh;
+    background: #353541;
+}
+.BB_block{
+    display: block;
+}
+.Big_input::placeholder, .Little_input::placeholder{
+    padding-left: 10px;
+}
+.P_man{
+    height: 200px;
+    align-items: flex-end;
+    background-image: url(Images/P_Man.png);
+}
+.P_man div{
+    height: 50px;
+    margin-left: 20px;
+    width: 150px;
+    color: white;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.Bold_text_2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.First_grid_block, .Second_grid_block, .Third_grid_block, .Fourth_grid_block, .Fifth_grid_block{
+    color: white;
+    align-items: center;
+}
+.First_grid_block{
+    background: #01b9c3;
+}
+.Second_grid_block{
+    background: #1e2e3e;
+}
+.Third_grid_block{
+    background: #3f3d3e;
+}
+.Fourth_grid_block{
+    background: #0093b5;
+}
+.Fifth_grid_block{
+    background: #6176ab;
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background: gray;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: rgb(180, 180, 180);
+}
+.First_image, .Second_image, .Third_image, .Fourth_image, .Fifth_image, .Sixth_image{
+    height: 400px;
+}
+.First_image{
+    background-image: url(Images/Layer\ 37.png);
+}
+.Second_image{
+    background-image: url(Images/Image_2.png);
+}
+.Third_image{
+    background-image: url(Images/Image_3.png);
+}
+.Fourth_image{
+    background-image: url(Images/Image_4.png);
+}
+.Fifth_image{
+    background-image: url(Images/Image_5.png);
+}
+.Sixth_image{
+    background-image: url(Images/Image_6.png);
+}
+.Link_on_modal::after{
+    content: ' >';
+}
+.Link_on_modal{
+    text-decoration: underline;
+    cursor: pointer;
+    padding-bottom: 10px;
+    width: 100px;
+}
+.Text_block_5{
+    height: 100px;
+    padding-top: 10px;
+}
+.Text_2{
+    margin-top: 10px;
+}
+.Text_3{
+    font-size: 20px;
+    margin-top: 15px;
+    padding-bottom: 100px;
+}
+.Block_of_modal_block{
+    min-height: 100%;
+    background: rgba(0,0,0,0.7);
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 3;
+}
+.Modal_block{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    height: 600px;
+    background: #d3d3d3;
+    border-radius: 10px;
+    margin-top: -2000px;
+    transition: 3s;
+}
+.B_O_M_B{
+    visibility: visible;
+}
+.M_B{
+    margin-top: 0;
+}
+.Circle_1{
+    justify-content: center;
+    align-items: center;
+    width:220px;
+    height:220px;
+    border: 2px solid blue;
+    animation: loading 3s infinite linear;
+}
+.Circle_2{
+    width:100px;
+    height:100px;
+    border: 2px solid blue;
+    animation: loading_2 3s infinite linear;
+}
+@keyframes loading{
+    100%{
+      transform: rotate(360deg);
+    }
+}
+@keyframes loading_2{
+    100%{
+      transform: rotate(-720deg);
+    }
+}
+.Electrick_watch{
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+    height: 150px;
+    width: 200px;
+    background: #3f3d3e;
+    border-radius: 10px;
+    color: rgb(0, 212, 0);
+    font-weight: bold;
+}
+.clock {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: black;
+}
+.minutes{
+    position: absolute;
+    content: '';
+    height: 130px;
+    width: 10px;
+    background: white;
+    bottom: 50%;
+    left: calc(50% - 5px);
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.seconds{
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 5px;
+    background: red;
+    bottom: 50%;
+    left: calc(50% - 2.5px);
+    border-radius: 5px;
+    transform-origin: bottom;
+}
+.Point_of_clock{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 100%;
+  top: calc(50% - 15px);
+  left: calc(50% - 15px);
+}
+.Colored_animation{
+  align-items: center;
+  width: 100px;
+  height: 100px;
+}
+.Third_part, .Nineth_part, .Sixth_part{
+  animation: heart_1 5s infinite linear;
+}
+.First_part, .Eight_part, .Fourth_part{
+  animation: heart_2 5s infinite linear;
+}
+.Second_part, .Fifth_part, .Seventh_part{
+  animation: heart_3 5s infinite linear;
+}
+.Colored_animation div{
+  width: 10px;
+  border-radius: 10px;
+}
+.First_part, .Nineth_part{
+  height: 50px;
+}
+.Second_part, .Eight_part, .Third_part, .Seventh_part, .Fourth_part, .Sixth_part, .Fifth_part{
+  height: 70px;
+}
+.Third_part, .Seventh_part{
+  margin-top: 10px;
+}
+.Fourth_part, .Sixth_part{
+  margin-top: 30px;
+}
+.Fifth_part{
+  margin-top: 50px;
+}
+.DVD_object{
+  width:50px;
+  height: 50px;
+  position: absolute;
+  background: orange;
+}
+.DVD_border{
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  position: relative;
+}
+@keyframes heart_1{
+  0%{
+    background: red;
+    transform: scale(1);
+  }
+  25%{
+    background: blue;
+    transform: scale(1.1);
+  }
+  50%{
+    background: orange;
+    transform: scale(1);
+  }
+  75%{
+    background: purple;
+    transform: scale(1.1);
+  }
+  100%{
+    background: red;
+    transform: scale(1);
+  }
+}
+@keyframes heart_2{
+  0%{
+    background: orange;
+    transform: scale(1);
+  }
+  25%{
+    background: purple;
+    transform: scale(1.1);
+  }
+  50%{
+    background: red;
+    transform: scale(1);
+  }
+  75%{
+    background: blue;
+    transform: scale(1.1);
+  }
+  100%{
+    background: orange;
+    transform: scale(1);
+  }
+}
+@keyframes heart_3{
+  0%{
+    background: blue;
+    transform: scale(1);
+  }
+  25%{
+    background: red;
+    transform: scale(1.1);
+  }
+  50%{
+    background: purple;
+    transform: scale(1);
+  }
+  75%{
+    background: orange;
+    transform: scale(1.1);
+  }
+  100%{
+    background: blue;
+    transform: scale(1);
+  }
+}
+@media (min-width: 768px) and (max-width: 768px){
+    .Info form, .Main_info{
+        width: 250px;
+    }
+    .Text_block_4{
+        width: 165px;
+    }
+}
+@media (min-width: 320px) and (max-width: 425px){
+    .Text_block_3 button{
+        font-size: 16px;
+    }
+    .active{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .Interests{
+        height: 4322px;
+    }
+    .Info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Line_3{
+        display: none;
+    }
+    .Info form, .Main_info{
+        width: 100%;
+    }
+    .Info_block{
+        margin-top: 70px;
+    }
+    .Text_block_4{
+        width: 200px;
+    }
+    .Modal_block{
+        width: 300px;
+        height: 400px;
+    }
+    .Cancel_Of_Modal{
+        margin-bottom: 340px;
+        margin-left: 260px;
+    }
+    .First_grid_block, .Second_grid_block, .Third_grid_block, .Fourth_grid_block, .Fifth_grid_block{
+        width: 100%;
+        height: 700px;
+    }
+}
