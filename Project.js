@@ -63,6 +63,9 @@ Button_f.onclick = function(){
   let form = document.forms[0];
   if (form.elements.Form_input[0].value.length > 0 && form.elements.Form_input[1].value.length > 0 && form.elements.Form_input[2].value.length > 0 && form.elements.Form_input[1].value.split('').includes('@')){
     Form_info[form.elements.Form_input[0].value] = {[form.elements.Form_input[1].value]: `${form.elements.Form_input[2].value}`};
+    form.elements.Form_input[0].value = '';
+    form.elements.Form_input[1].value = '';
+    form.elements.Form_input[2].value = '';
     alert('Sucess');
   }else{
     alert('Error');
