@@ -66,9 +66,9 @@ Button_f.onclick = function(){
     form.elements.Form_input[0].value = '';
     form.elements.Form_input[1].value = '';
     form.elements.Form_input[2].value = '';
-    alert('Sucess');
+    alert('Записанно!');
   }else{
-    alert('Error');
+    alert('Проверьте, пожалуйста, написаны ли у вас все пункты и указанна почта!');
   }
   console.log(Form_info);
 }
